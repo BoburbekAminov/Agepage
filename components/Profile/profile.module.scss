@@ -1,0 +1,270 @@
+.route {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+  p {
+    margin: 0;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #a9a9aa;
+  }
+  .last {
+    p {
+      margin: 0;
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+}
+.container {
+  .wrapUser {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    .profileMenu {
+      max-width: 255px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #373739;
+      border-radius: 10px;
+      .profile {
+        background-color: #28282a;
+        border-radius: 10px 10px 0 0;
+        padding: 30px;
+
+        .imageFrame {
+          padding: 0px 45px 20px;
+          .background {
+            padding: 30px 33px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #212123;
+          }
+        }
+        .nameEmail {
+          display: flex;
+          flex-direction: column;
+          max-width: 186px;
+          text-align: center;
+          p {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+          span {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #a9a9aa;
+          }
+        }
+      }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        // padding: 30px;
+        .myOrders {
+          padding: 20px 30px;
+          border: none;
+          border-bottom: 1px solid #373739;
+          p {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #a9a9aa;
+          }
+        }
+      }
+    }
+    .order {
+      max-width: 825px;
+      width: 100%;
+      background: #28282a;
+      border-radius: 10px;
+      // padding: 30px 50px;
+      .titleMain {
+        padding: 30px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+          font-family: "SF Pro Display";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 36px;
+          color: #ffffff;
+        }
+        span {
+          font-family: "SF Pro Display";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: #a9a9aa;
+        }
+      }
+      hr {
+        border: 1px solid #373739;
+      }
+      .orderDescription {
+        padding: 50px;
+        .orderNumber {
+          max-width: 370px;
+          justify-content: space-between;
+          display: flex;
+          padding-bottom: 20px;
+          p {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 25px;
+            color: #ffffff;
+          }
+          button {
+            max-width: 103px;
+            height: 30px;
+            width: 100%;
+            background: #b4261d;
+            border-radius: 100px;
+            text-align: center;
+            border: none;
+            p {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 14px;
+              text-transform: uppercase;
+              color: #ffffff;
+            }
+          }
+        }
+        .customerName {
+          display: flex;
+          max-width: 406px;
+          width: 100%;
+          justify-content: space-between;
+          p {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            color: #a9a9aa;
+          }
+          span {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            color: #ffffff;
+          }
+        }
+      }
+      .orderList {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        .title {
+          display: flex;
+          flex-direction: column;
+          
+          p {
+            font-family: "SF Pro Display";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 25px;
+            color: #ffffff;
+          }
+          .columnBy{
+            padding: 30px 0;
+            display: flex;
+            max-width: 660px;
+            width: 100%;
+            justify-content: space-between;
+            p{
+              font-family: 'SF Pro Display';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              text-transform: uppercase;
+              color: #A9A9AA;
+            }
+            .quantityAndCost{
+              display: flex;
+              max-width: 265px;
+              width: 100%;
+              justify-content: space-between;
+            }
+          }
+        }
+        .products{
+          display: flex;
+          flex-direction: column;
+          .product{
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            
+            // justify-content: space-between;
+            img{
+              max-width: 78px;
+            }
+            .name{
+               max-width: 200px;
+              //  padding-left: 130px;
+              p{
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                // text-align: center;            
+                color: #A9A9AA;
+              }
+              span{
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 21px;
+                color: #FFFFFF;   
+            
+              }
+            }
+            .quantity{
+              padding: 0 125px;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}

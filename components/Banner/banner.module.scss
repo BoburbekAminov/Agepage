@@ -1,0 +1,193 @@
+.banner {
+    padding-top: 77px;
+
+    @media (max-width:376px) {
+        display: none;
+    }
+
+
+
+    .inBanner {
+        // max-width: 1110px;
+        // width: 100%;
+        // min-height: 450px;
+        margin: auto;
+        background: #28282a;
+        border-radius: 10px;
+
+
+        .tobacco {
+            position: relative;
+            padding-left: 365px;
+
+
+            .mobileBanner {
+                display: none;
+
+            }
+
+            .bannerText {
+                position: absolute;
+                max-width: 351px;
+                width: 100%;
+                max-height: 191px;
+                height: 100%;
+                top: 115px;
+                left: 87px;
+
+
+
+                .textTitle {
+                    padding-bottom: 15px;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 48px;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .bannerInfo {
+                    padding-bottom: 30px;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #FFFFFF;
+
+                    }
+                }
+
+                .banerBtn {
+                    button {
+                        max-width: 201px;
+                        width: 100%;
+                        min-height: 50px;
+                        background: #1D3DB4;
+                        border-radius: 100px;
+                        border: #1D3DB4;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+
+
+
+            .computersItem {
+                img {
+                    max-width: 457px;
+                    width: 100%;
+                    max-height: 343px;
+                }
+
+                position: absolute;
+                bottom: 53px;
+                left: 570px;
+
+            }
+
+        }
+    }
+}
+
+
+.mobileBanner {
+    background: #28282a;
+    max-width: 376px;
+    width: 100%;
+    height: 605px;
+
+    @media(min-width:376px) {
+        display: none;
+
+    }
+
+    .inMobileBanner {
+        .mobileText {
+            padding-top: 50px;
+
+            p {
+
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 36px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+
+            .mobileTitle {
+                padding: 0 25px;
+                text-align: center;
+
+                span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .mobileImg {
+            position: relative;
+
+            .mobileTobacco {
+                position: absolute;
+                top: 102px;
+                left: 0;
+            }
+
+            .mobileBtn {
+                position: absolute;
+                top: 30px;
+                left: 87px;
+                width: 100%;
+
+                button {
+
+                    max-width: 200px;
+                    width: 100%;
+                    height: 50px;
+                    background: #1D3DB4;
+                    border-radius: 100px;
+                    border: unset;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+
+                }
+            }
+
+            .mobileComputer {
+                position: absolute;
+                top: 135px;
+                left: 25px;
+
+                img {
+                    width: 100%;
+                    max-width: 325px;
+                    height: 244px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,163 @@
+.header {
+    background-color: hsl(240, 2%, 16%);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+
+    @media(max-width:376px) {
+        display: none;
+    }
+
+    // width: 100%;
+    .wrapHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1380px;
+        width: 100%;
+        min-height: 80px;
+        margin: auto;
+
+        .logoAndMenu {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .inMenu {
+            display: flex;
+            align-items: center;
+            max-width: 750px;
+            width: 100%;
+            justify-content: space-between;
+
+            .menu {
+                p {
+
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .cotalog {
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .configurator {
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .selectionPC {
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #A9A9AA;
+
+                }
+            }
+
+            .brand {
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #A9A9AA;
+                }
+            }
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            @media (max-width:376px) {
+                display: none;
+            }
+            .chosenOne{
+                min-width: 45px;
+                height: 45px;
+                background: #212123;
+                text-align: center;
+                padding-top: 8px;
+                border-radius: 100px;
+            }
+            .registration {
+                position: relative;
+
+                .inRegistration {
+                    position: absolute;
+                    top: 12px;
+                    left: 14px;
+                }
+            }
+        }
+
+    }
+}
+
+
+.mobileHeader {
+    display: flex;
+    align-items: center;
+    max-width: 375px;
+    width: 100%;
+    height: 70px;
+    padding: 0 25px;
+    justify-content: space-between;
+    background: #28282A;
+
+    @media (min-width:376px) {
+        display: none;
+    }
+
+    .mobileMenuVsLogo {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        // .mobileMenu{}
+    }
+
+    .mobileIcons {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        .mobileSearch {
+            button {
+                background: none;
+                border: unset;
+            }
+        }
+
+        .mobileRegistration {
+            button {
+                background: none;
+                border: unset;
+            }
+        }
+
+        .mobileBasked {
+            button {
+                background: none;
+                border: unset;
+            }
+        }
+    }
+}

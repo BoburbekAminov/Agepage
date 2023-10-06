@@ -1,0 +1,188 @@
+.personalWrap {
+    max-width: 850px;
+    width: 100%;
+    background: #28282A;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    .inPersonal {
+        padding: 40px 35px;
+        display: grid;
+        gap: 35px;
+
+        .nameAndSurname {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+
+            .nameText {
+                max-width: 350px;
+                width: 100%;
+
+                p {
+                    padding: 0 0 16px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A9A9AA;
+                }
+
+                .nameInput {
+
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        background: #212123;
+                        color: #FFFFFF;
+                        border-radius: 100px;
+                        padding: 0 25px;
+                        border: unset;
+                        outline: none;
+                    }
+                }
+
+            }
+
+            .surnameText {
+                max-width: 350px;
+                width: 100%;
+
+                p {
+                    padding: 0 0 16px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A9A9AA;
+                }
+
+                .surnameInput {
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        background: #212123;
+                        color: #FFFFFF;
+                        border-radius: 100px;
+                        padding: 0 25px;
+                        border: unset;
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .emailText {
+            max-width: 350px;
+            width: 100%;
+
+            p {
+                padding: 0 0 16px 0;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #A9A9AA;
+            }
+
+            .emailInput {
+                input {
+                    width: 100%;
+                    height: 50px;
+                    background: #212123;
+                    color: #FFFFFF;
+                    border-radius: 100px;
+                    padding: 0 25px;
+                    border: unset;
+                    outline: none;
+                }
+            }
+        }
+
+        .code {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+
+            .codeText {
+                max-width: 350px;
+                width: 100%;
+
+                p {
+                    padding: 0 0 16px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A9A9AA;
+                }
+
+                .codeInput {
+
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        background: #212123;
+                        color: #FFFFFF;
+                        border-radius: 100px;
+                        padding: 0 25px;
+                        border: unset;
+                        outline: none;
+                    }
+                }
+
+            }
+
+            .confirmCode {
+                max-width: 350px;
+                width: 100%;
+
+                p {
+                    padding: 0 0 16px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A9A9AA;
+                }
+
+                .confirmInput {
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        background: #212123;
+                        color: #FFFFFF;
+                        border-radius: 100px;
+                        padding: 0 25px;
+                        border: unset;
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .confirmBtn {
+            text-align: center;
+            width: 100%;
+
+            button {
+                max-width: 350px;
+                width: 100%;
+                height: 50px;
+                background: #1D3DB4;
+                border-radius: 100px;
+                border: unset;
+                p{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-transform: uppercase;
+                    color: #FFFFFF; 
+                }
+            }
+        }
+    }
+}

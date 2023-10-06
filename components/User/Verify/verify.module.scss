@@ -1,0 +1,94 @@
+.authorizationCode {
+    max-width: 495px;
+    width: 100%;
+    background: #28282a;
+    border-radius: 10px;
+    margin: 27px auto 100px;
+
+    .authorizationTitle {
+        text-align: center;
+        padding: 41px 0 33px 0;
+
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+    .inputText {
+        width: 100%;
+        text-align: center;
+
+        p {
+            max-width: 276px;
+            padding: 0 0 15px 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #a9a9aa;
+            margin: auto;
+
+        }
+
+        .codeInput {
+            input {
+                max-width: 395px;
+                width: 100%;
+                height: 50px;
+                background: #212123;
+                color: #ffffff;
+                border-radius: 100px;
+                padding: 0 25px;
+                border: unset;
+                outline: none;
+            }
+        }
+    }
+
+    .confirmBtn {
+        padding-top: 30px;
+        margin: 0 50px 0 50px;
+
+        button {
+            max-width: 395px;
+            width: 100%;
+            height: 50px;
+            background: #1d3db4;
+            border-radius: 100px;
+            border: unset;
+
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .repeatedBtn {
+        margin: auto 0 0 96px;
+        padding: 32px 0 51px 0;
+        button {
+            background: none;
+            border: unset;
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #A9A9AA;
+            }
+        }
+    }
+
+
+}

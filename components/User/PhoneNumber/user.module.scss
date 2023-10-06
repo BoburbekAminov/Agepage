@@ -1,0 +1,114 @@
+.folder {
+    display: flex;
+    align-items: flex-end;
+    max-width: 1380px;
+    width: 100%;
+    margin: 29px auto 0;
+
+    .homeItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inHomeItem {
+            padding: 0 10px;
+        }
+    }
+
+    .authorizationItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+}
+
+.authorization {
+    max-width: 495px;
+    width: 100%;
+    background: #28282A;
+    border-radius: 10px;
+    margin: 27px auto 100px;
+
+    .inAuthorization {
+        max-width: 395px;
+        width: 100%;
+        margin: auto;
+        padding: 41px 0 50px 0;
+
+        .authorizationTitle {
+            text-align: center;
+            padding-bottom: 33px;
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 36px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        .inputText {
+            width: 100%;
+            p {
+                padding: 0 0 16px 25px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #A9A9AA;
+            }
+
+            .numberInput {
+
+                input {
+                    max-width: 395px;
+                    width: 100%;
+                    height: 50px;
+                    background: #212123;
+                    color: #FFFFFF;
+                    border-radius: 100px;
+                    padding: 0 25px;
+                    border: unset;
+                    outline: none;
+                }
+            }
+        }
+
+        .continueBtn {
+            padding-top: 30px;
+            button {
+                max-width: 395px;
+                width: 100%;
+                height: 50px;
+                background: #1D3DB4;
+                border-radius: 100px;
+                border: unset;
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;                    
+                }
+            }
+        }
+    }
+}

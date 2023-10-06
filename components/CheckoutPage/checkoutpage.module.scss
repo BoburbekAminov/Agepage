@@ -1,0 +1,599 @@
+.folder {
+    display: flex;
+    align-items: flex-end;
+    margin: 29px 0 0 30px;
+
+    .homeItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inHomeItem {
+            padding: 0 10px;
+        }
+    }
+
+    .brandItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inBrandItem {
+            padding: 0 10px;
+        }
+    }
+
+    .acerItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inAcerItem {
+            padding: 0 10px;
+        }
+    }
+
+    .laptopItem {
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+    }
+}
+
+.checkout {
+    .checkoutText {
+        margin: 39px 0 40px 0;
+
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+    }
+
+    .checkoutWrap {
+        display: flex;
+        margin-bottom: 100px;
+        gap: 30px;
+        .listWrap {
+            max-width: 730px;
+            width: 100%;
+            // height: 1035px;
+            background: #28282A;
+            border-radius: 10px;
+
+            .list {
+                padding: 50px;
+
+                .recipient {
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 21px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                    }
+
+                    .recipientInput {
+                        border-bottom: 1px solid #373739;
+                        padding-top: 25px;
+
+                        .nameAndSurname {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .nameInput {
+                                width: 100%;
+                                input {
+                                    max-width: 305px;
+                                    width: 100%;
+                                    height: 50px;
+                                    background: #212123;
+                                    border-radius: 100px;
+                                    padding-left: 25px;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+                            }
+
+                            .surnameInput {
+                                width: 100%;
+                                input {
+                                    max-width: 305px;
+                                    width: 100%;
+                                    height: 50px;
+                                    background: #212123;
+                                    border-radius: 100px;
+                                    padding-left: 25px;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+                            }
+                        }
+
+                        .numberAndEmaile {
+                            display: flex;
+                            justify-content: space-between;
+                            padding-top: 20px;
+                            margin-bottom: 50px;
+
+                            .numberInput {
+                                width: 100%;
+                                input {
+                                    max-width: 305px;
+                                    width: 100%;
+                                    height: 50px;
+                                    background: #212123;
+                                    border-radius: 100px;
+                                    padding-left: 25px;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+                            }
+
+                            .emaileInput {
+                                width: 100%;
+                                input {
+                                    max-width: 305px;
+                                    width: 100%;
+                                    height: 50px;
+                                    background: #212123;
+                                    border-radius: 100px;
+                                    padding-left: 25px;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .delivery {
+                    padding-top: 48px;
+
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 21px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                    }
+
+                    .deliveryTabs {
+                        padding-top: 26px;
+
+                        .inDeliveryTabs {
+                            display: flex;
+                            gap: 30px;
+
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 17px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        .regionAndArea {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 31px 0 0 0;
+
+                            .regionInput {
+                                max-width: 305px;
+                                width: 100%;
+                                height: 50px;
+                                background: #212123;
+                                border-radius: 100px;
+                                padding: 16px 0 15px 25px;
+
+                                input {
+
+                                    max-width: 245px;
+                                    width: 100%;
+                                    background: none;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+
+                                button {
+                                    background: none;
+                                    border: unset;
+                                }
+                            }
+
+                            .areaInput {
+                                max-width: 305px;
+                                width: 100%;
+                                height: 50px;
+                                background: #212123;
+                                border-radius: 100px;
+                                padding: 16px 0 15px 25px;
+
+                                input {
+                                    max-width: 245px;
+                                    width: 100%;
+                                    background: none;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+
+                                button {
+                                    background: none;
+                                    border: unset;
+                                }
+                            }
+                        }
+
+                        .addressInput {
+                            // max-width: 305px;
+                            margin: 20px 0 32px 0;
+                            width: 100%;
+                            height: 50px;
+                            background: #212123;
+                            border-radius: 100px;
+                            padding: 16px 25px 15px 25px;
+
+                            input {
+                                // max-width: 245px;
+                                width: 100%;
+                                background: none;
+                                color: #FFFFFF;
+                                border: unset;
+                                outline: none;
+                            }
+                        }
+
+                        .regionComment {
+                            padding-bottom: 48px;
+                            border-bottom: 1px solid #373739;
+
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #A9A9AA;
+                            }
+                        }
+
+
+                        .mapTabs {
+                            margin-top: 32px;
+                            border-top: 1px solid #373739;
+
+                            .inMapTabs {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                padding: 20px 0;
+                                border-bottom: 1px solid #373739;
+
+
+                                .mapImage {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 15px;
+
+                                    // img {}
+                                    .mapTitle {
+                                        width: 150px;
+
+                                        p {
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            line-height: 21px;
+                                            color: #FFFFFF;
+                                        }
+
+                                        span {
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            line-height: 21px;
+                                            color: #A9A9AA;
+                                        }
+                                    }
+                                }
+
+                                .workingTime {
+                                    p {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                        color: #A9A9AA;
+
+                                    }
+                                }
+                            }
+
+
+
+                        }
+                    }
+                }
+
+                .payment {
+                    margin: 49px 0 0 0;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 21px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                    }
+
+                    .paymentTabs {
+                        margin-top: 26px;
+
+                        .inPaymentTabs {
+                            display: flex;
+                            gap: 30px;
+
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 17px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        .cardAndCode {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 31px 0 0 0;
+
+                            .cardInput {
+                                max-width: 305px;
+                                width: 100%;
+                                height: 50px;
+                                background: #212123;
+                                border-radius: 100px;
+                                padding: 16px 0 15px 25px;
+
+                                input {
+
+                                    max-width: 245px;
+                                    width: 100%;
+                                    background: none;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+                            }
+
+                            .codeInput {
+                                max-width: 305px;
+                                width: 100%;
+                                height: 50px;
+                                background: #212123;
+                                border-radius: 100px;
+                                padding: 16px 0 15px 25px;
+
+                                input {
+                                    max-width: 245px;
+                                    width: 100%;
+                                    background: none;
+                                    color: #FFFFFF;
+                                    border: unset;
+                                    outline: none;
+                                }
+
+                            }
+                        }
+
+                        .cardowner {
+                            // max-width: 305px;
+                            margin: 20px 0 30px 0;
+                            width: 100%;
+                            height: 50px;
+                            background: #212123;
+                            border-radius: 100px;
+                            padding: 16px 25px 15px 25px;
+
+                            input {
+                                // max-width: 245px;
+                                width: 100%;
+                                background: none;
+                                color: #FFFFFF;
+                                border: unset;
+                                outline: none;
+                            }
+                        }
+
+                        .paymentBtn {
+                            button {
+                                width: 100%;
+                                height: 50px;
+                                border: unset;
+                                background: #1D3DB4;
+                                border-radius: 100px;
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    text-transform: uppercase;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+
+                        .inCash {
+                            margin-top: 31px;
+
+                            .inCashBtn {
+
+                                button {
+                                    width: 100%;
+                                    height: 50px;
+                                    background: #1D3DB4;
+                                    border-radius: 100px;
+                                    border: unset;
+
+                                    p {
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        text-transform: uppercase;
+                                        color: #FFFFFF;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+        .yourOrder {
+            max-width: 350px;
+            width: 100%;
+            height: 630px;
+            background: #1C1C1E;
+            border-radius: 10px;
+
+            .titleOrder {
+                padding: 30px 0;
+                border-bottom: 2px solid #212123;
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 21px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+            }
+            .inOrder{
+                display: flex;
+                align-items: center;
+                padding: 30px;
+                gap: 20px;
+                border-bottom: 2px solid #212123;
+                img{
+                    max-width: 80px;
+                    height: 50px;
+                    width: 100%;
+                }
+                .textProduct{
+                    .inProduct{
+                        p{
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #A9A9AA;
+                        }
+                    }
+                    .nameProduct{
+                        p{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .productPrice{
+                        display: flex;
+                        align-items: center;
+                        p{
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                        .inProductPrice{
+                            p{
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 17px;
+                                text-align: center;
+                                color: #A9A9AA;
+                            }
+                        }
+                    }
+                }
+            }
+            .totalPrice{
+                padding: 30px 0;
+                
+                p{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                .commentTotalPrice{
+                    padding-top: 10px;
+                    p{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #A9A9AA;
+                    }
+                }
+            }
+        }
+    }
+}

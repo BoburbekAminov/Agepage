@@ -1,0 +1,115 @@
+.models {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #373739;
+    padding: 82px 0 81px 0;
+
+    @media (max-width:376px) {
+        padding: 0 25px;
+    }
+
+    .modelsTitle {
+        text-align: center;
+        padding-bottom: 40px;
+
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+
+            @media (max-width:376px) {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+    }
+
+    .modelsGrids {
+
+        display: grid;
+        width: 100%;
+        grid-template-rows: repeat(1, 300px);
+        grid-template-columns: repeat(3, 350px);
+        row-gap: 30px;
+        column-gap: 30px;
+
+        @media (max-width:376px) {
+            grid-template-rows: repeat(3, 150px);
+            grid-template-columns: repeat(1, 325px);
+            row-gap: 15px;
+            column-gap: 15px;
+        }
+
+
+        .modelsComputer {
+            background: #28282A;
+            border-radius: 10px;
+
+            @media (max-width:376px) {
+                display: flex;
+            }
+
+            img {
+                width: 100%;
+                padding: 40px 75px 0 75px;
+
+                @media (max-width:376px) {
+                    width: 100%;
+                    padding: 15px 0 20px 20px;
+                }
+            }
+
+            .modelsInComputer {
+                padding: 0 113px;
+
+                @media (max-width:376px) {
+                    padding: 55px 25px 0 0;
+                }
+
+                p {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+
+                    @media (max-width:376px) {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                span {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A9A9AA;
+
+                    @media (max-width:376px) {
+                        max-width: 109px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #A9A9AA;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

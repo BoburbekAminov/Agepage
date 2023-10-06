@@ -1,0 +1,378 @@
+.folder {
+    display: flex;
+    align-items: flex-end;
+    max-width: 1380px;
+    width: 100%;
+    margin: 29px auto 0;
+
+    .homeItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inHomeItem {
+            padding: 0 10px;
+        }
+    }
+
+    .brandItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inBrandItem {
+            padding: 0 10px;
+        }
+    }
+
+    .acerItem {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+
+        .inAcerItem {
+            padding: 0 10px;
+        }
+    }
+
+    .laptopItem {
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #A9A9AA;
+        }
+    }
+
+
+}
+
+.laptopInfo {
+    display: flex;
+    width: 100%;
+    padding-top: 37px;
+     gap: 97px;
+    .image {
+       width: 100%;
+
+        .inImg {
+            margin-bottom: 72px;
+            
+            img {
+                min-width: 473px;
+                width: 100%;
+                height: 308px;
+            }
+
+        }
+
+        .wrapImage {
+            display: flex;
+            width: 100%;
+            align-items: center;
+
+            .leftItem {
+                padding-right: 15px;
+
+                button {
+
+                    background: #373739;
+                    border-radius: 100%;
+                    border: unset;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .gridImg {
+                display: grid;
+                grid-template-rows: repeat(1, 70px);
+                grid-template-columns: repeat(3, 95px);
+                column-gap: 15px;
+
+                .inGrid {
+                    background-color: #373739;
+                    border: 2px solid #1D3DB4;
+                    border-radius: 10px;
+                    width: 100%;
+
+                    img {
+                        padding: 11px 17px;
+                        width: 100%;
+                        min-width: 61px;
+                        min-height: 40px;
+                    }
+                }
+
+            }
+
+            .rightItem {
+                padding-left: 15px;
+
+                button {
+                    background: #373739;
+                    border: unset;
+                    border-radius: 100px;
+                    width: 50px;
+                    height: 50px;
+
+
+                }
+            }
+        }
+    }
+
+    .laptopName {
+        width: 100%;
+        .laptopText {
+            border-bottom: 1px solid #373739;
+            width: 100%;
+            .productName {
+                padding-bottom: 7px;
+                width: 100%;
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .inLaptopName {
+                width: 100%;
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 50px;
+                    color: #FFFFFF;
+                }
+
+                .latopPrice {
+                    width: 100%;
+                    padding: 19px 0 25px 0;
+
+                    span {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 36px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .laptopComment {
+                width: 100%;
+
+                padding-bottom: 36px;
+
+                p {
+
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #A9A9AA;
+                }
+            }
+
+        }
+
+        .laptopQuantity {
+            display: flex;
+            width: 100%;
+
+            gap: 125px;
+            padding-bottom: 31px;
+            border-bottom: 1px solid #373739;
+            
+
+            .inLaptopQuantity {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                }
+
+                .inQuantity {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    padding-top: 16px;
+
+                    .quantityBtn {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        border-radius: 50px;
+                        // width: 100%;
+                        min-width: 160px;
+                        height: 40px;
+                        background: #363638;
+                        padding: 0 3px;
+                        width: 100%;
+
+
+                        .subtractionBtn {
+                            button {
+                                border: unset;
+                                background: #212123;
+                                border-radius: 100px;
+                                width: 34px;
+                                height: 34px;
+                            }
+                        }
+
+                        .toAddBtn {
+                            button {
+                                border: unset;
+                                background: #212123;
+                                border-radius: 100px;
+                                width: 34px;
+                                height: 34px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .color {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                }
+
+                .colorBtn {
+                    display: flex;
+                    align-items: center;
+                    padding-top: 16px;
+
+                    .black {
+                        border: 2px solid #1D3DB4;
+                        min-width: 40px;
+                        height: 40px;
+                        border-radius: 100px;
+                        padding: 3px 3px 3px 3.5px;
+
+                        button {
+                            min-width: 30px;
+                            height: 30px;
+                            background: black;
+                            border: unset;
+                            border-radius: 100px;
+                        }
+                    }
+
+                    .gray {
+                        padding: 0 15px 0 15px;
+
+                        button {
+                            min-width: 30px;
+                            height: 30px;
+                            background: #8E8E8E;
+                            border: unset;
+                            border-radius: 100px;
+                        }
+                    }
+
+                    .white {
+                        button {
+                            min-width: 30px;
+                            height: 30px;
+                            background: #FFFFFF;
+                            border: unset;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .laptopAddBasked {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            padding-top: 29px;
+            padding-bottom: 90px;
+
+            .buyBtn {
+                display: flex;
+                button {
+                    background: #1D3DB4;
+                    border: unset;
+                    min-width: 255px;
+                    // width: 100%;
+                    height: 50px;
+                    border-radius: 100px;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+
+                }
+            }
+
+            .laptopBtn {
+                button {
+                    background: none;
+                    border: 2px solid #1D3DB4;
+                    min-width: 255px;
+                    // width: 100%;
+                    height: 50px;
+                    border-radius: 100px;
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,123 @@
+.brandsItem {
+    @media (max-width:376px) {
+        display: none;
+    }
+    // max-width: 1110px;
+    // width: 100%;
+    // margin: auto;
+
+    .brandsTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding-bottom: 47px;
+
+        .inTitle {
+            display: flex;
+            align-items: flex-end;
+            p {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 36px;
+                color: #FFFFFF;
+            }
+
+            .brandsBtn {
+                padding-left: 76px;
+
+                button {
+                    background: none;
+                    border: unset;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A9A9AA;
+                }
+            }
+        }
+        .brandBtnIcon{
+            button{
+                border: unset;
+                background: #28282a;
+                border-radius: 100px;
+                border: unset;
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+    }
+
+    .brandsLogo {
+        display: flex;
+        min-height: 321px;
+
+        .firstLine {
+            .acerLogo {
+                padding-top: 18px;
+            }
+
+            .apacerLogo {
+                padding: 64px 0 84px 0;
+            }
+        }
+
+        .secondLine {
+            padding-left: 55px;
+
+            .appleLogo {
+                padding: 24px 0 62px 36px;
+            }
+        }
+
+        .thirdLine {
+            padding-left: 50px;
+            .afoxLogo {
+                padding: 18px 0 60px 0;
+            }
+
+            .arktekLogo {
+                padding: 0 0 94px 0;
+            }
+        }
+
+        .fourthLine {
+            padding-left: 30px;
+
+            .amdLogo {
+                padding: 18px 0 67px 0;
+            }
+
+            .asrockLogo {
+                padding: 0 0 98px 0;
+            }
+        }
+
+        .fifthRow {
+            padding-left: 35px;
+
+            .aocLogo {
+                padding: 18px 0 65px 0;
+            }
+
+            .asusLogo {
+                padding: 0 0 113px 0;
+            }
+        }
+
+        .sixthLine {
+            padding-left: 37px;
+
+            .aorusLogo {
+                padding: 18px 0 39px 0;
+            }
+
+            .axleLogo {
+                padding: 0 0 105px 0;
+            }
+        }
+    }
+}

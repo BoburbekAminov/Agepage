@@ -1,0 +1,197 @@
+html,
+body {
+  padding: 0;
+  margin: auto;
+  background: #212123;
+  font-family: "SFpro", sans-serif;
+}
+
+@font-face {
+  font-family: "SFpro";
+  src:
+    url("/punlik/fonts/SFProDisplay-Regular.woff") format("woff"),
+    url("/punlik/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
+  // background: #444444;
+
+}
+.containerFooter {
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
+  // background: #444444;
+
+}
+
+.mySwiper {
+  height: 450px;
+  background: #28282a;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+
+  @media (max-width:376px) {
+    display: none;
+  }
+
+  .swiper-pagination {
+    bottom: 41px !important;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #3d3d3f !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .swiper-button-next {
+    top: unset !important;
+    background-image: url("../public/right.svg");
+    background-repeat: no-repeat;
+    background-color: #212123 !important;
+    width: 40px !important;
+    right: 40% !important;
+    height: 40px !important;
+    background-position: center;
+    bottom: 30px !important;
+    border-radius: 50px;
+
+    &::after {
+      content: " " !important;
+    }
+
+    @media (max-width:376px) {
+      display: none;
+    }
+  }
+
+  .swiper-button-prev {
+    top: unset !important;
+    bottom: 30px !important;
+    width: 40px !important;
+    left: 40% !important;
+    height: 40px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(33, 33, 35, 1) !important;
+    background-image: url("../public/left.svg");
+
+    border-radius: 50px;
+
+    &::after {
+      content: " " !important;
+
+      @media (max-width:376px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.myMobileSwiper {
+  height: 645px;
+  background: #28282a;
+  padding-bottom: 30px;
+
+  @media (min-width:376px) {
+    display: none;
+  }
+
+  .swiper-pagination {
+    bottom: 304px !important;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #3d3d3f !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .swiper-button-next {
+    top: unset !important;
+    background-image: url("../public/right.svg");
+    background-repeat: no-repeat;
+    background-color: #212123 !important;
+    width: 40px !important;
+    right: 40% !important;
+    height: 40px !important;
+    background-position: center;
+    bottom: 30px !important;
+    border-radius: 50px;
+
+    &::after {
+      content: " " !important;
+    }
+
+    @media (max-width:376px) {
+      display: none;
+    }
+  }
+
+  .swiper-button-prev {
+    top: unset !important;
+    bottom: 30px !important;
+    width: 40px !important;
+    left: 40% !important;
+    height: 40px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(33, 33, 35, 1) !important;
+    background-image: url("../public/left.svg");
+    border-radius: 50px;
+
+    &::after {
+      content: " " !important;
+
+    }
+    @media (max-width:376px) {
+        display: none;
+      }
+  }
+}
+
+.ReactModal__Overlay--after-open{
+  background-color: rgb(94 89 89 / 75%) !important;
+  display: flex;
+  flex-direction: column;
+  
+}
+.nextui-collapse-title{
+  color: #fff !important;
+}
+table, th, td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+}

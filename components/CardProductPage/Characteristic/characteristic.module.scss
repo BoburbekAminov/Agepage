@@ -1,0 +1,352 @@
+.tabs {
+    background: #28282A;
+
+    .inTabs {
+        height: 60px;
+        max-width: 1110px;
+        width: 100%;
+        margin: auto;
+
+        .infoTabs {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 21px 0;
+
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #A9A9AA;
+            }
+        }
+    }
+
+}
+
+.tabsText {
+    padding-top: 51px;
+
+    .titleCharacteristic {
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+
+        .textInfo {
+            padding: 43px 0 41px 0;
+            border-bottom: 1px solid #373739;
+
+            p {
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+
+            .inTextInfo {
+                display: flex;
+                padding-top: 21px;
+
+                gap: 111px;
+
+                .device {
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 36px;
+                        color: #A9A9AA;
+                    }
+                }
+
+                .deviceName {
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 36px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+
+    .accessoriesTitle {
+        padding: 50px 0 42px 0;
+        border-bottom: 1px solid #373739;
+
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 25px;
+            color: #FFFFFF;
+        }
+
+        .textAccessories {
+            display: flex;
+            padding-top: 21px;
+            gap: 165px;
+
+            .inTextAccessories {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 36px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .inAccessoriesName {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 36px;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+
+    .Other {
+        padding: 50px 0 90px 0;
+
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 25px;
+            color: #FFFFFF;
+        }
+
+        .textOther {
+            display: flex;
+            padding-top: 21px;
+            gap: 171px;
+
+            .inOther {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 36px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .nameOther {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 36px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #373739;
+    width: 100%;
+    gap: 102px;
+    padding-bottom: 24px;
+    margin: 51px 0 0 0;
+    p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
+    .inReviews {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        .allReviews {
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+        }
+
+        .byDate {
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+        }
+
+        .estimates {
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 0 0 0;
+
+    .incomment {
+
+        max-width: 825px;
+        width: 100%;
+
+
+        .commentAuthor {
+            display: flex;
+            border-bottom: 1px solid #373739;
+
+            .authorTitle {
+                padding-left: 20px;
+
+                .authorName {
+                    padding-bottom: 24px;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        padding-bottom: 10px;
+
+                    }
+                }
+
+                .authorText {
+
+
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #FFFFFF;
+                        padding-bottom: 20px;
+                    }
+                }
+
+                .commentDate {
+                    padding-bottom: 35px;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #A9A9AA;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .reviewRating {
+        max-width: 255px;
+        width: 100%;
+        height: 370px;
+        background: #28282A;
+        border-radius: 10px;
+
+        .inReviewRating {
+            padding: 33px 30px 30px 30px;
+
+            .reviewRatingText {
+                padding-bottom: 26px;
+                text-align: center;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .starIcons {
+                padding-bottom: 20px;
+            }
+
+            .reviewRatingBtn {
+                button {
+                    max-width: 195px;
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 100px;
+                    background: none;
+                    border: 2px solid #1D3DB4;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+.innerModal {
+    display: flex;
+    flex-direction: column;
+    .textModal{
+      font-size: 20px;
+      padding: 20px;
+    }
+    .inModal{
+      display: grid;
+      max-width: 450px;
+      justify-content: space-around;
+      gap: 15px;
+  
+      input{
+        min-height: 35px; 
+        border-radius: 8px;
+        outline: none;
+        border: 2px solid #e7e7e7;
+        
+      } 
+      button{
+        background-color: #ffa553;
+        min-height: 35px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+      }
+    }
+  }

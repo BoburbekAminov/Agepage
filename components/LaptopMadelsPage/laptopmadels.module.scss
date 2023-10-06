@@ -1,0 +1,439 @@
+.laptopWrap {
+    display: grid;
+    max-width: 1380px;
+    width: 100%;
+    margin: 82px auto 50px;
+    gap: 40px;
+
+    .laptopTitle {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        // max-width: 1380px;
+        // width: 100%;
+        // margin: auto;
+
+        .filterBtn {
+            button {
+                background: none;
+                border: unset;
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    color: #A9A9AA;
+
+                }
+            }
+
+        }
+
+        .laptop {
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 48px;
+                color: #FFFFFF;
+            }
+        }
+
+        .laptopTabs {
+            .inLaptopTabs {
+                display: flex;
+                gap: 20px;
+
+                .theFirstTabs {
+                    .active{
+                        color:red;
+                        svg path,
+                        svg rect {
+                          fill: #ffffff;
+                        }
+                    }
+                    .nonactive{
+                        svg path,
+                        svg rect {
+                          fill: #5a5a5a;
+                        }
+                    }
+                    button {
+                    cursor: pointer;
+
+                        border: unset;
+                        background: none;
+                    }
+                }
+
+                .secondTabs {
+                    cursor: pointer;
+                    .active{
+                        color:red;
+                        svg path,
+                        svg rect {
+                          fill: #ffffff;
+                        }
+                    }
+                    .nonactive{
+                        svg path,
+                        svg rect {
+                          fill: #5a5a5a;
+                        }
+                    }
+                    button {
+                    cursor: pointer;
+
+                        border: unset;
+                        background: none;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .filterAndLaptop {
+        display: flex;
+        gap: 30px;
+        // max-width: 1380px;
+        // width: 100%;
+        // margin: auto;
+
+        .resetFilter {
+            max-width: 240px;
+            width: 100%;
+            height: 1285px;
+            border: 1px solid #373739;
+            border-radius: 10px;
+
+            .laptopBrands {
+                padding: 25px 20px 30px 20px;
+
+                p {
+
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                }
+
+                .inlaptopBrands {
+                    padding-top: 25px;
+                    .title{
+                        color: "#fff"
+                    }
+
+                    .appleLaptop {
+                        display: flex;
+                        padding-bottom: 21px;
+
+                        p {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-transform: uppercase;
+                            color: #A9A9AA;
+
+                        }
+
+                        span {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-transform: uppercase;
+                            color: #535355;
+                        }
+                    }
+                }
+
+            }           
+            .colorLaptop {
+                padding: 30px 20px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                }
+
+                .colorLaptopBtn {
+                    display: flex;
+                    align-items: center;
+                    padding-top: 30px;
+
+                    .black {
+                        border: 2px solid #1D3DB4;
+                        max-width: 35px;
+                        width: 100%;
+                        height: 35px;
+                        border-radius: 100px;
+                        padding: 3px 3px 3px 3.5px;
+
+                        button {
+                            width: 25px;
+                            height: 25px;
+                            background: black;
+                            border: unset;
+                            border-radius: 100px;
+                        }
+                    }
+
+                    .gray {
+                        padding: 0 15px 0 15px;
+
+                        button {
+                            width: 30px;
+                            height: 30px;
+                            background: #8E8E8E;
+                            border: unset;
+                            border-radius: 100px;
+                        }
+                    }
+
+                    .white {
+                        button {
+                            width: 30px;
+                            // width: 100%;
+                            height: 30px;
+                            background: #FFFFFF;
+                            border: unset;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .laptopWrapGrid {
+            display: grid;
+            width: 100%;
+            grid-template-rows: repeat(10, 400px);
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 30px;
+            column-gap: 30px;
+            @media (max-width:800px){
+            grid-template-columns: repeat(2, 1fr);
+                
+            }
+
+            .laptopGrid {
+                width: 100%;
+                background: #28282A;
+                border-radius: 10px;
+
+                .laptopImage {
+                    padding: 20px 35px 25px 35px;
+                    border-bottom: 1px solid #373739;
+
+                    img {
+                        width: 100%;
+                        height: 190px;
+                    }
+                }
+
+                .laptopNameAndprice {
+                    padding: 31px 30px 0 30px;
+
+                    .laptopImageName {
+                        p {
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 26px;
+                            color: #FFFFFF;
+                        }
+
+                    }
+
+                    .priceAndBtn {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .laptopPrice {
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        .basketBtn {
+
+                            // width: 100%;
+                            button {
+                                width: 45px;
+                                height: 45px;
+                                border-radius: 100px;
+                                background: #1D3DB4;
+                                border: unset;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .laptopGridInfo {
+            display: grid;
+            width: 100%;
+            grid-template-rows: repeat(15, 250px);
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 30px;
+
+            .inlaptopGridInfo {
+                display: flex;
+                width: 100%;
+                background: #28282A;
+                border-radius: 10px;
+
+                .laptopImage {
+                    padding: 40px 27px 60px 27px;
+                    border-right: 1px solid #373739;
+
+                    img {
+                        min-width: 200px;
+                        width: 100%;
+                        height: 130px;
+                    }
+                }
+
+                .laptopWrapText {
+                    display: flex;
+                    gap: 96px;
+
+                    .laptopNameAndprice {
+                        .laptopImageName {
+                            display: grid;
+                            max-width: 290px;
+                            padding: 31px 0px 0 31px;
+                            gap: 20px;
+
+                            p {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 26px;
+                                color: #FFFFFF;
+                            }
+
+                            .laptopPrice {
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                        }
+
+                        .basketButton {
+                            padding: 37px 0 0 36px;
+                            .cart{
+                                position: absolute;
+                                right: 0;
+
+                                background-color: #1D3DB4;
+                                height: 45px;
+                                width: 45px;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            button {
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                        padding: 0 0 0 15px;
+                                
+                                max-width: 163px;
+                                width: 100%;
+                                height: 45px;
+                                border-radius: 100px;
+                                background: #212123;
+                                border: unset;
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    text-transform: uppercase;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+
+                    .laptopInfo {
+                        padding: 29px 0 41px 0;
+
+                        .laptopInfoText {
+                            display: flex;
+
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 30px;
+                                color: #A9A9AA;
+                            }
+
+                            span {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 30px;
+                                color: #FFFFFF;
+
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .btn {
+        margin: auto;
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #1D3DB4;
+            border-radius: 50px;
+            background: none;
+            width: 251px;
+            // width: 100%;
+            height: 50px;
+            gap: 15px;
+
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

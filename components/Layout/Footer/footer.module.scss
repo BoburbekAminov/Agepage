@@ -1,0 +1,220 @@
+.footer {
+    @media (max-width:376px) {
+            display: none;
+        }
+        height: 375px;
+ background-color: #1C1C1E;
+    .wrapFooter {
+       padding-top: 10px;
+        
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin: 72px 0 81px 0;
+
+
+            .web {
+                display: flex;
+                flex-direction: column;
+                gap: 46px;
+
+                .logoFooter {
+                    padding-left: 4px;
+                }
+
+                .webPages {
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+                }
+            }
+
+            .models {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    padding-bottom: 18px;
+                }
+
+                button {
+                    background: none;
+                    border: unset;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .useful {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    background: none;
+                    border: unset;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .catalog {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    background: none;
+                    border: unset;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .aboutShop {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    background: none;
+                    border: unset;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #A9A9AA;
+                }
+            }
+
+            .subscribe {
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+
+                }
+
+                .email {
+                    padding-top: 26px;
+
+                    input {
+                        max-width: 190px;
+                        width: 100%;
+                        min-height: 40px;
+                        padding-left: 20px;
+                        outline: none;
+                        background: #28282A;
+                        border: #28282A;
+                        border-radius: 100px;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .inSubscribe {
+                    padding-top: 15px;
+
+                    button {
+                        min-width: 190px;
+                        width: 100%;
+                        min-height: 40px;
+                        background: #1C1C1E;
+                        border: 2px solid #1D3DB4;
+                        border-radius: 100px;
+                        color: #FFFFFF;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .reserved {
+        background-color: #1C1C1E;
+        display: flex;
+        padding: 28px 0;
+        justify-content: space-between;
+        border-top: 1px solid #282829;
+
+        .inReserved {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #909091;
+        }
+
+        .website {
+            display: flex;
+
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #909091;
+            }
+
+            span {
+                padding-left: 4px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}

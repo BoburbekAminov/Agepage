@@ -1,0 +1,106 @@
+.catalogItem {
+    // max-width: 1110px;
+    // width: 100%;
+    margin: auto;
+    padding-bottom: 81px;
+
+    @media (max-width:376px) {
+        padding: 0 25px;
+    }
+
+    .catalogText {
+        padding: 81px 0 43px 0;
+
+        @media (max-width:376px) {
+            padding: 0 0 43px 0;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+    }
+
+    .inCatalog {
+        display: grid;
+        grid-template-rows: repeat(1, 450px);
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+
+        @media (max-width:376px) {
+            grid-template-rows: repeat(3, 430px);
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 25px;
+        }
+
+        .products {
+            background: #28282a;
+            border-radius: 10px;
+
+
+            .productTitle {
+                padding-top: 40px;
+
+                p {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 21px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+
+            .productsInfo {
+                padding-top: 10px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #A9A9AA;
+                }
+            }
+
+            .productsBtn {
+                text-align: center;
+                padding-top: 16px;
+
+                button {
+                    max-width: 174px;
+                    width: 100%;
+                    min-height: 40px;
+                    background: #28282a;
+                    border: 2px solid #1D3DB4;
+                    border-radius: 100px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+
+            .productImg {
+                padding: 40px 73px 0 73px;
+
+                @media (max-width:376px) {
+                    padding: 40px 55px 0 55px;
+
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}
